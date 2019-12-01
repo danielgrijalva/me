@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const IconWrapper = styled.li`
-  width: 3rem;
-  height: 3rem;
-  margin-right: 0.3rem;
+  width: 2.3rem;
+  height: 2.3rem;
+  margin-right: 0.4rem;
   display: inline-block;
 `;
 
