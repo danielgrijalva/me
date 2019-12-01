@@ -1,6 +1,13 @@
 import React from "react";
-import { Links } from "./components/Links";
+import { Container } from "./components/Container";
+import { Bio } from "./components/Bio";
+import { Photo } from "./components/Photo";
 
 export const App = () => {
-  return <Links />;
+  return (
+    <Container>
+      <Bio />
+      <Photo />
+    </Container>
+  );
 };
