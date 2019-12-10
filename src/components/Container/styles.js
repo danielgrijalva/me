@@ -1,8 +1,13 @@
 import styled from "styled-components";
 
 export const StyledContainer = styled.div`
-  display: grid;
+  display: flex;
   background-color: #212121;
   height: 100vh;
-  grid-template-columns: 1fr 2fr;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    font-size: 12px;
+    flex-flow: column-reverse;
+  }
 `;

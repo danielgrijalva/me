@@ -1,18 +1,17 @@
 import React from "react";
 import { Links } from "../Links/";
-import { StyledBio, Title } from "./styles";
+import { StyledBio, StyledParagraph, Title } from "./styles";
 
 export const Bio = () => {
   return (
     <StyledBio>
       <Title>Daniel Grijalva</Title>
-      <p>
+      <StyledParagraph>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit{" "}
         <span role="img" aria-label="Fallen Leaf Emoji">
           🍂
         </span>
-      </p>
-      <br />
+      </StyledParagraph>
       <Links />
     </StyledBio>
   );

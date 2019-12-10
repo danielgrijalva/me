@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const StyledPhoto = styled.img`
-  grid-column-start: 2;
+  flex: 2;
+  order: 2;
   overflow: hidden;
-  max-height: 100%;
+  object-fit: cover;
 `;

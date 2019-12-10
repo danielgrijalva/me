@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const IconWrapper = styled.li`
-  width: 2.3rem;
-  height: 2.3rem;
-  margin-right: 0.4rem;
+  width: 2.15em;
+  height: 2.15em;
+  margin: 0.75em 0.5em 0 0;
   display: inline-block;
 `;
 
@@ -16,5 +16,4 @@ export const IconLink = styled.a`
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  overflow: hidden;
 `;
