@@ -9,6 +9,11 @@ export const IconWrapper = styled.li`
 
 export const StyledIcon = styled.img`
   border-radius: 50%;
+  transition: filter 0.2s ease-in-out;
+  filter: grayscale(100%) contrast(200%);
+  &:hover {
+    filter: none;
+  }
 `;
 
 export const IconLink = styled.a`
