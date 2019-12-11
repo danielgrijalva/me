@@ -11,7 +11,7 @@ export const Links = () => {
       <Icon icon="letterboxd" link="https://letterboxd.com/danieeel/" />
       <Icon icon="overworld" link="https://overworld.netlify.com/user/daniel" />
       <Icon icon="facebook" link="https://facebook.com/danielgrijalvas/" />
-      <Icon icon="twitter" link="https://twitter/danielgrijalvas" />
+      <Icon icon="twitter" link="https://twitter.com/danielgrijalvas" />
       <Icon icon="linkedin" link="https://linkedin.com/in/danielgrijalva/" />
       <Icon icon="mail" link="mailto:danielgrisoto@gmail.com" />
       <Icon icon="spotify" link="https://open.spotify.com/user/jdgs.gt" />
