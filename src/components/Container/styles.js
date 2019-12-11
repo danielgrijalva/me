@@ -2,12 +2,10 @@ import styled from "styled-components";
 
 export const StyledContainer = styled.div`
   display: flex;
-  background-color: #212121;
   height: 100vh;
+  background: center / cover no-repeat url("assets/photo.jpg");
 
   @media (max-width: 768px) {
-    flex-direction: column;
-    font-size: 12px;
-    flex-flow: column-reverse;
+    font-size: 14px;
   }
 `;
