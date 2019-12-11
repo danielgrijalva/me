@@ -1,13 +1,11 @@
 import React from "react";
 import { Container } from "./components/Container";
-import { Bio } from "./components/Bio";
-import { Photo } from "./components/Photo";
+import { Card } from "./components/Card";
 
 export const App = () => {
   return (
     <Container>
-      <Bio />
-      <Photo />
+      <Card />
     </Container>
   );
 };
