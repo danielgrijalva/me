@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledCard = styled.div`
   text-align: center;
   font-family: "Open Sans", sans-serif;
-  color: #fafafa;
+  color: #f5f5f5;
   margin: auto;
   padding: 3em 5em;
   border-radius: 1.25em;
@@ -16,9 +16,11 @@ export const StyledCard = styled.div`
 `;
 
 export const Title = styled.h1`
-  font-family: "Merriweather", serif;
-  font-size: 2.75em;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5em;
+  font-weight: 500;
   margin: 0.75rem 0;
+  text-shadow: 3px 5px 2em rgba(0, 0, 0, 0.4);
 `;
 
 export const StyledParagraph = styled.p`
