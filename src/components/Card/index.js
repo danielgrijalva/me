@@ -5,7 +5,7 @@ import { StyledCard, StyledParagraph, Title } from "./styles";
 export const Card = () => {
   return (
     <StyledCard>
-      <Title>Daniel Grijalva</Title>
+      <Title>Daniel G.</Title>
       <StyledParagraph>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit{" "}
         <span role="img" aria-label="Sparkles Emoji">
