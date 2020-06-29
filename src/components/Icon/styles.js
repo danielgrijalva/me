@@ -5,8 +5,6 @@ export const IconWrapper = styled.li`
   height: 2.25em;
   margin: 0.75em 0.5em 0 0;
   display: inline-block;
-  backface-visibility: hidden;
-
 `;
 
 export const StyledIcon = styled.img`
