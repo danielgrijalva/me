@@ -15,6 +15,8 @@ export const Links = () => {
       <Icon icon="overworld" link="https://overworld.netlify.com/user/daniel" />
       <Icon icon="spotify" link="https://open.spotify.com/user/jdgs.gt" />
       <Icon icon="twitter" link="https://twitter.com/danielgrijalvas" />
+      <Icon icon="upwork" link="https://www.upwork.com/o/profiles/users/~01a2163fcc7909ee40" />
+      <Icon icon="vimeo" link="https://vimeo.com/danielgrijalva" />
     </StyledLinks>
   );
 };
