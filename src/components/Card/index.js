@@ -7,9 +7,12 @@ export const Card = () => {
     <StyledCard>
       <Title>Daniel Grijalva</Title>
       <StyledParagraph>
-        lorem ipsum, dolor sit amet consectetur adipisicing elit{" "}
-        <span role="img" aria-label="Sparkles Emoji">
-          ✨
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit{" "}
+        <span style={{
+            fontSize: '24px',
+            verticalAlign: 'middle',
+        }}>
+          <img src="assets/emoji/sparkles.svg" width="24px" alt="Sparkles Emoji" />
         </span>
       </StyledParagraph>
       <Links />

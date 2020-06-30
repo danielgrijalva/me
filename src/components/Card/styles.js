@@ -18,7 +18,7 @@ export const Title = styled.h1`
   font-family: "Raleway", sans-serif;
   font-size: 2.75em;
   margin: 0.75rem 0;
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);      
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);      
 `;
 
 export const StyledParagraph = styled.p`
